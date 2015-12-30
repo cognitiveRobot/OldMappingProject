@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/CompareASR.H</itemPath>
+      <itemPath>src/CompareASRClass.H</itemPath>
+      <itemPath>src/Comparison.h</itemPath>
+      <itemPath>src/GeometricOp.H</itemPath>
+      <itemPath>src/GeometryFuncs.H</itemPath>
+      <itemPath>src/GroupS.H</itemPath>
+      <itemPath>src/Laser2Surface.H</itemPath>
+      <itemPath>src/Map.H</itemPath>
+      <itemPath>src/Mapping.H</itemPath>
+      <itemPath>src/Minfo.H</itemPath>
+      <itemPath>src/Object.H</itemPath>
+      <itemPath>src/PathPlanning.H</itemPath>
+      <itemPath>src/PerceptualMapping.H</itemPath>
+      <itemPath>src/Plotting.H</itemPath>
+      <itemPath>src/Point.H</itemPath>
+      <itemPath>src/PointAndSurface.H</itemPath>
+      <itemPath>src/PolygonChoice.h</itemPath>
+      <itemPath>src/RobotFuncs.H</itemPath>
+      <itemPath>src/Transporter.H</itemPath>
+      <itemPath>src/asr.H</itemPath>
+      <itemPath>src/asrOp.H</itemPath>
+      <itemPath>src/clipper.hpp</itemPath>
+      <itemPath>src/convexPathPlanner.h</itemPath>
+      <itemPath>src/generalFunctions.h</itemPath>
+      <itemPath>src/mfisOp.H</itemPath>
+      <itemPath>src/newClass.h</itemPath>
+      <itemPath>src/polygons.h</itemPath>
+      <itemPath>src/readAndwriteASCII.H</itemPath>
+      <itemPath>src/space.h</itemPath>
+      <itemPath>src/thesis.H</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/AutonomousXplorationAndMapping.cpp</itemPath>
+      <itemPath>src/CompareASR.cpp</itemPath>
+      <itemPath>src/CompareASRClass.cpp</itemPath>
+      <itemPath>src/Comparison.cpp</itemPath>
+      <itemPath>src/ExploringandReturn.cpp</itemPath>
+      <itemPath>src/GXplorationAndMapping.cpp</itemPath>
+      <itemPath>src/GeometricOp.cpp</itemPath>
+      <itemPath>src/GeometryFuncs.cpp</itemPath>
+      <itemPath>src/GroupS.cpp</itemPath>
+      <itemPath>src/GuidedXplorationAndMapping.cpp</itemPath>
+      <itemPath>src/Laser2Surface.cpp</itemPath>
+      <itemPath>src/Map.cpp</itemPath>
+      <itemPath>src/Mapping.cpp</itemPath>
+      <itemPath>src/Minfo.cpp</itemPath>
+      <itemPath>src/NavigationToExit.cpp</itemPath>
+      <itemPath>src/Object.cpp</itemPath>
+      <itemPath>src/OfflineNavigationToExit.cpp</itemPath>
+      <itemPath>src/PathPlanning.cpp</itemPath>
+      <itemPath>src/PerceptualMapping.cpp</itemPath>
+      <itemPath>src/Plotting.cpp</itemPath>
+      <itemPath>src/Point.cpp</itemPath>
+      <itemPath>src/PointAndSurface.cpp</itemPath>
+      <itemPath>src/Polygon.cpp</itemPath>
+      <itemPath>src/PolygonChoice.cpp</itemPath>
+      <itemPath>src/StereoMapping.cpp</itemPath>
+      <itemPath>src/Testboost.cpp</itemPath>
+      <itemPath>src/Transporter.cpp</itemPath>
+      <itemPath>src/asr.cpp</itemPath>
+      <itemPath>src/asrOp.cpp</itemPath>
+      <itemPath>src/clipper.cpp</itemPath>
+      <itemPath>src/convertlog.cpp</itemPath>
+      <itemPath>src/convexPathPlanner.cpp</itemPath>
+      <itemPath>src/crossExits_test.cpp</itemPath>
+      <itemPath>src/demo.cpp</itemPath>
+      <itemPath>src/display.cpp</itemPath>
+      <itemPath>src/errorMap.cpp</itemPath>
+      <itemPath>src/errorMapWholeFloor.cpp</itemPath>
+      <itemPath>src/localmapAndglobal.cpp</itemPath>
+      <itemPath>src/localmapGen.cpp</itemPath>
+      <itemPath>src/localmap_Generation.cpp</itemPath>
+      <itemPath>src/mapWholeFloor.cpp</itemPath>
+      <itemPath>src/mfisOp.cpp</itemPath>
+      <itemPath>src/mrpt.cpp</itemPath>
+      <itemPath>src/newClass.cpp</itemPath>
+      <itemPath>src/offlineMapping.cpp</itemPath>
+      <itemPath>src/readAndwriteASCII.cpp</itemPath>
+      <itemPath>src/robotControl.cpp</itemPath>
+      <itemPath>src/segmentgeneration.cpp</itemPath>
+      <itemPath>src/space.cpp</itemPath>
+      <itemPath>src/thesis.cpp</itemPath>
+      <itemPath>src/wander.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="src/AutonomousXplorationAndMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/CompareASR.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CompareASR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CompareASRClass.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CompareASRClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Comparison.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Comparison.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ExploringandReturn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GXplorationAndMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GeometricOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GeometricOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GeometryFuncs.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GeometryFuncs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GroupS.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GroupS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GuidedXplorationAndMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Laser2Surface.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Laser2Surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Map.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Mapping.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Mapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Minfo.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Minfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/NavigationToExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Object.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OfflineNavigationToExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PathPlanning.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PathPlanning.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PerceptualMapping.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PerceptualMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Plotting.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Plotting.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Point.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Point.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PointAndSurface.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PointAndSurface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Polygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PolygonChoice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PolygonChoice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/RobotFuncs.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/StereoMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Testboost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Transporter.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Transporter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/asr.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/asr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/asrOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/asrOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/clipper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/clipper.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/convertlog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/convexPathPlanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/convexPathPlanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/crossExits_test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/demo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/display.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/errorMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/errorMapWholeFloor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/generalFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/localmapAndglobal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/localmapGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/localmap_Generation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mapWholeFloor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mfisOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mfisOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mrpt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/newClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/newClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/offlineMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/polygons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/readAndwriteASCII.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/readAndwriteASCII.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/robotControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/segmentgeneration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/space.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/space.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thesis.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thesis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/wander.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="src/AutonomousXplorationAndMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/CompareASR.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CompareASR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CompareASRClass.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CompareASRClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Comparison.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Comparison.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ExploringandReturn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GXplorationAndMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GeometricOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GeometricOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GeometryFuncs.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GeometryFuncs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GroupS.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GroupS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GuidedXplorationAndMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Laser2Surface.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Laser2Surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Map.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Mapping.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Mapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Minfo.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Minfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/NavigationToExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Object.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/OfflineNavigationToExit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PathPlanning.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PathPlanning.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PerceptualMapping.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PerceptualMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Plotting.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Plotting.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Point.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Point.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PointAndSurface.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/PointAndSurface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Polygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PolygonChoice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/PolygonChoice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/RobotFuncs.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/StereoMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Testboost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Transporter.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Transporter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/asr.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/asr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/asrOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/asrOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/clipper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/clipper.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/convertlog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/convexPathPlanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/convexPathPlanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/crossExits_test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/demo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/display.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/errorMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/errorMapWholeFloor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/generalFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/localmapAndglobal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/localmapGen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/localmap_Generation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mapWholeFloor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mfisOp.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mfisOp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mrpt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/newClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/newClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/offlineMapping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/polygons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/readAndwriteASCII.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/readAndwriteASCII.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/robotControl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/segmentgeneration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/space.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/space.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thesis.H" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/thesis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/wander.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
